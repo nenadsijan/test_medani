@@ -37,7 +37,7 @@
 
             <ul class="list-unstyled components">
                 <li class="{{request()->is('admin/home') ? 'active' : '' }}">
-                    <a href="{{route('home')}}">Home</a>
+                    <a href="{{route('admin.home')}}">Home</a>
                 </li>
                 <li class="{{(request()->is('posts') or  request()->is('create-post') or  request()->is('edit-post/*'))  ? 'active' : '' }}">
                     <a href="{{route('posts')}}">Posts</a>
