@@ -1,9 +1,10 @@
 
 ## Installation of the project
 
-1) Clone project with command : ```git clone https://github.com/nenadsijan/test_medani.git```
 
-2) Run command ```composer update```
+1)Clone project with command : ```git clone https://github.com/nenadsijan/test_medani.git```
+
+2)Run command ```composer update```
 
 3)Create database with the same name as is in .env file
 
